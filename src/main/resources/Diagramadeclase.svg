@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="413" version="1.1" width="895" xmlns="http://www.w3.org/2000/svg">
+<rect fill="#ffffff" height="76" stroke="#ffffff" stroke-width="1" width="248" x="14" y="14"/>
+<rect fill="none" height="76" stroke="#000000" stroke-width="1" width="248" x="14" y="14"/>
+<text font-family="Dialog" font-size="12" font-style="italic" x="19" y="28">
++ edu::ud2::model::util::AbstractGenericDao</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="248" x="14" y="38"/>
+<text font-family="Dialog" font-size="12" x="18" y="53">
+~entityClass : String</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="248" x="14" y="63"/>
+<text font-family="Dialog" font-size="12" x="18" y="78">
++getEntityClass() : String</text>
+<rect fill="#ffffff" height="121" stroke="#ffffff" stroke-width="1" width="206" x="505" y="30"/>
+<rect fill="none" height="121" stroke="#000000" stroke-width="1" width="206" x="505" y="30"/>
+<text font-family="Dialog" font-size="12" x="510" y="64">
++ edu::ud2::model::util::IGenericDao</text>
+<text font-family="Dialog" font-size="12" x="570" y="45">
+&lt;&lt;interface&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="206" x="505" y="74"/>
+<text font-family="Dialog" font-size="12" x="509" y="89">
++create(entity : E) : E</text>
+<text font-family="Dialog" font-size="12" x="509" y="106">
++read(id : int) : E</text>
+<text font-family="Dialog" font-size="12" x="509" y="123">
++update(entity : E) : boolean</text>
+<text font-family="Dialog" font-size="12" x="509" y="140">
++delete(id : int) : boolean</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="261" x2="266" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="271" x2="276" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="281" x2="286" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="291" x2="296" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="301" x2="306" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="311" x2="316" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="321" x2="326" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="331" x2="336" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="341" x2="346" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="351" x2="356" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="361" x2="366" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="371" x2="376" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="381" x2="386" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="391" x2="396" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="401" x2="406" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="411" x2="416" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="421" x2="426" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="431" x2="436" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="441" x2="446" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="451" x2="456" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="461" x2="466" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="471" x2="476" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="481" x2="486" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="491" x2="496" y1="86" y2="86"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="501" x2="505" y1="86" y2="86"/>
+<polygon fill="#ffffff" points="505,86 493,93 493,79" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="505,86 493,93 493,79" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="285" y="56">
+AbstractGenericDao -&gt; IGenericDao</text>
+<text font-family="Dialog" font-size="12" x="297" y="74">
+&lt;&lt;realize&gt;&gt;</text>
+<rect fill="#ffffff" height="89" stroke="#ffffff" stroke-width="1" width="263" x="14" y="310"/>
+<rect fill="none" height="89" stroke="#000000" stroke-width="1" width="263" x="14" y="310"/>
+<text font-family="Dialog" font-size="12" x="19" y="324">
++ edu::ud2::model::dao::partido::PartidoMySQL</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="263" x="14" y="334"/>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="263" x="14" y="355"/>
+<text font-family="Dialog" font-size="12" x="18" y="370">
+&lt;&lt;create&gt;&gt; +PartidoMySQL()</text>
+<text font-family="Dialog" font-size="12" x="18" y="387">
++create(entity : Partido) : Partido</text>
+<polyline fill="none" points="134,310 134,89" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="134,89 141,101 127,101" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="134,89 141,101 127,101" stroke="#000000" stroke-width="1"/>
+<rect fill="#ffffff" height="70" stroke="#ffffff" stroke-width="1" width="251" x="630" y="326"/>
+<rect fill="none" height="70" stroke="#000000" stroke-width="1" width="251" x="630" y="326"/>
+<text font-family="Dialog" font-size="12" x="635" y="360">
++ edu::ud2::model::dao::partido::IPartidoDao</text>
+<text font-family="Dialog" font-size="12" x="718" y="341">
+&lt;&lt;interface&gt;&gt;</text>
+<rect fill="#000000" height="1" stroke="#000000" stroke-width="1" width="251" x="630" y="370"/>
+<text font-family="Dialog" font-size="12" x="634" y="385">
+~existe(nombre : String) : boolean</text>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="276" x2="281" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="286" x2="291" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="296" x2="301" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="306" x2="311" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="316" x2="321" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="326" x2="331" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="336" x2="341" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="346" x2="351" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="356" x2="361" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="366" x2="371" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="376" x2="381" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="386" x2="391" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="396" x2="401" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="406" x2="411" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="416" x2="421" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="426" x2="431" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="436" x2="441" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="446" x2="451" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="456" x2="461" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="466" x2="471" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="476" x2="481" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="486" x2="491" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="496" x2="501" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="506" x2="511" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="516" x2="521" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="526" x2="531" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="536" x2="541" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="546" x2="551" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="556" x2="561" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="566" x2="571" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="576" x2="581" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="586" x2="591" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="596" x2="601" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="606" x2="611" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="616" x2="621" y1="349" y2="349"/>
+<line fill="#000000" stroke="#000000" stroke-width="1" x1="626" x2="630" y1="349" y2="349"/>
+<polygon fill="#ffffff" points="630,349 618,356 618,342" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="630,349 618,356 618,342" stroke="#000000" stroke-width="1"/>
+<text font-family="Dialog" font-size="12" x="374" y="319">
+PartidoMySQL -&gt; IPartidoDao</text>
+<text font-family="Dialog" font-size="12" x="386" y="337">
+&lt;&lt;realize&gt;&gt;</text>
+<polyline fill="none" points="673,326 673,150" stroke="#000000" stroke-width="1"/>
+<polygon fill="#ffffff" points="673,150 680,162 666,162" stroke="#ffffff" stroke-width="1"/>
+<polygon fill="none" points="673,150 680,162 666,162" stroke="#000000" stroke-width="1"/>
+</svg>
