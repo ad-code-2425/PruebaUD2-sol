@@ -27,7 +27,13 @@ public class PartidoServicio implements IPartidoServicio {
         for (Partido p : partidos) {
 
             //TODO
+            if(!partidoDao.existe(p.getNombre())){
+            partidoDao.create(p);
             System.out.println("Se ha creado un partido con id: " + p.getId());
+            }
+            else{
+                System.out.println("No se ha creado el partido " + p.getNombre() + " porque ya existe en la BD");
+            }
         }
     }
 
