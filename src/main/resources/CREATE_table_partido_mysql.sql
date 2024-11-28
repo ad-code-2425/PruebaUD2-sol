@@ -1,0 +1,11 @@
+USE empresa;
+
+-- Crear a táboa PARTIDO se non existe
+CREATE TABLE IF NOT EXISTS PARTIDO (
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(50) NOT NULL,
+    porcentaje FLOAT NOT NULL,
+    numero_votos INT NOT NULL,
+    CONSTRAINT UC_PARTIDO_NOMBRE UNIQUE (nombre),
+    CONSTRAINT PK_PARTIDO PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
