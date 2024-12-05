@@ -3,8 +3,6 @@ package edu.ud2;
 import java.util.ArrayList;
 
 import edu.ud2.model.Partido;
-import edu.ud2.model.dao.partido.IPartidoDao;
-import edu.ud2.model.dao.partido.PartidoMySQL;
 import edu.ud2.model.services.IPartidoServicio;
 import edu.ud2.model.services.PartidoServicio;
 
